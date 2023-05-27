@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" size="60" class="searchText" id="search" onchange="searchByname()" placeholder="search By Name or Symbol">
+            <button type="button" class="btn" onclick="sortByMarketCap()">Sort by Mkt Cap</button>
+            <button type="button" class="btn" onclick="sortByPercentage()">Sort by percentage</button>
+        </div>
+        <div class="currency_table">
+            <table id="cur_table">
+                
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

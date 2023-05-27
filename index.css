@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.searchText{
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    padding: 3px;
+    color: white;
+   
+}
+
+
+input {
+    color: white;
+}
+
+.searchText::placeholder {
+    color: white;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .green {
+    color: green;
+  }
+
+
+
+.nores {
+    color: white;
+}
